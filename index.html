@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Light Admin - Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Menu Yamm -->
+    <link href="css/yamm/yamm.css" rel="stylesheet">
+	
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+	
+	<!-- Font-awesome 4.5 -->
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	
+	<!-- MAP -->
+	<link href="css/vmap/jqvmap.css" media="screen" rel="stylesheet" type="text/css"/>
+	
+	
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+		<nav class="navbar navbar-inverse navbar-fixed-top yamm" role="navigation">
+		<div class="container">
+		  <div class="navbar-header">
+			<button type="button" data-toggle="collapse" data-target="#navbar-collapse-2" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand"><a class="navbar-brand" href="#"><img src="img/logo.png"></a></a>
+		  </div>
+			<div id="navbar-collapse-2" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav" id="mainMenu">
+					<!-- Media Example -->
+					<li class="dropdown"><a class="active" href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a></li>
+					
+					<li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-fw fa-cubes"></i>  Components<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li>
+							<div class="card">
+									<ul class="nav nav-tabs" role="tablist">
+										<li class="active">
+											<a href="#charts" role="tab" data-toggle="tab"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
+										</li>
+										<li>
+											<a href="#tables" role="tab" data-toggle="tab"><i class="fa fa-fw fa-table"></i> Tables</a>
+										</li>
+										<li>
+											<a href="#forms" role="tab" data-toggle="tab"><i class="fa fa-fw fa-bars"></i> Forms</a>
+										</li>
+										<li>
+											<a href="#ui" role="tab" data-toggle="tab"><i class="fa fa-fw fa-desktop"></i> UI Elements</a>
+										</li>
+										<li>
+											<a href="#calendar" role="tab" data-toggle="tab"><i class="fa fa-fw fa-calendar"></i> Calendar</a>
+										</li>
+									</ul>
+
+									<!-- Tab panes -->
+									<div class="tab-content">
+										<div role="tabpanel" class="tab-pane active" id="charts">
+										<ul class="nav-list list-inline">
+											<li>
+												<a href="chart-morris.html" class="button"><i class="fa fa-fw fa-line-chart"></i><span>Morris</span></a>
+											</li>
+											<li>
+												<a href="chart-flot.html"><i class="fa fa-fw fa-pie-chart"></i><span>Flot</span></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa fa-area-chart"></i><span>Morris</span></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa fa-fw fa-bar-chart"></i><span>Flot</span></a>
+											</li>
+										</ul>
+										</div>
+										<div role="tabpanel" class="tab-pane" id="tables">
+											<ul class="nav-list list-inline">
+											<li>
+												<a href="tables.html"><i class="fa fa-fw fa-table"></i><span>Table</span></a>
+											</li>
+											<li>
+												<a href="dataTables.html"><i class="fa fa-fw fa-list"></i><span>DataTables</span></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa fa-paw"></i><span>Link 1</span></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa fa-music"></i><span>Link 2</span></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa fa-microphone"></i><span>Link 2</span></a>
+											</li>
+											</ul>
+										</div>
+										<div role="tabpanel" class="tab-pane" id="forms">
+											<ul class="nav-list list-inline">
+											<li>
+												<a href="form.html"><i class="fa fa-fw fa-list-alt"></i><span>Form</span></a>
+											</li>
+											<li>
+												<a href="formMD.html"><i class="fa fa-fw fa-th-list"></i><span>Form material design</span></a>
+											</li>
+											
+											</ul>
+										</div>
+										<div role="tabpanel" class="tab-pane" id="ui">
+											<ul class="nav-list list-inline">
+											<li>
+												<a href="tabs.html"><i class="fa fa-bars"></i><span>Tabs</span></a>
+											</li>
+											<li>
+												<a href="UIelements.html"><i class="fa fa-tasks"></i><span>Elements</span></a>
+											</li>
+											</ul>
+										</div>
+										<div role="tabpanel" class="tab-pane" id="calendar">
+											<ul class="nav-list list-inline">
+											<li>
+												<a href="calendar.html"><i class="fa fa-calendar"></i><span>FullCalendar</span></a>
+											</li>
+											</ul>
+										</div>
+									</div>
+							</div>	
+						</li>
+					</ul>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav">
+					<li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-files-o"></i> Pages<b class="caret"></b></a>
+
+						<ul class="dropdown-menu">
+							<li>
+								<a href="login.html"><i class="fa fa-key"></i> Login</a>
+							</li>
+							<li>
+								<a href="invoice.html"> <i class="fa fa-file"></i> Invoice</a>
+							</li>
+							<li>
+								<a href="blank.html"> <i class="fa fa-file-o"></i> Blank</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				
+				  <li class="dropdown"><a href="calendar.html"><i class="fa fa-fw fa-calendar"></i> calendar</a></li>
+				  <li class="dropdown"><a href="megamenu.html"><i class="fa fa-fw fa-list"></i> MegaMenu</a></li>
+				  <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-user"></i> User<b class="caret"></b></a>
+
+					<ul class="dropdown-menu">
+						<li>
+							<a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+						</li>
+					</ul>
+				  </li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<!-- Page Content -->
+	<div class="container">
+		<div class="header">
+            <div class="pull-right">
+				<!-- Standard button -->
+				<button type="button" class="btn btn-xs btn-default">Default</button>
+
+				<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+				<button type="button" class="btn btn-xs btn-primary">Primary</button>
+
+				<!-- Indicates a successful or positive action -->
+				<button type="button" class="btn btn-xs btn-success">Success</button>
+
+				<!-- Contextual button for informational alert messages -->
+				<button type="button" class="btn btn-xs btn-info">Info</button>
+
+				<!-- Indicates caution should be taken with this action -->
+				<button type="button" class="btn btn-xs btn-warning">Warning</button>
+
+				<!-- Indicates a dangerous or potentially negative action -->
+				<button type="button" class="btn btn-xs btn-danger">Danger</button>
+
+			</div>
+
+            <h1 class="page-title"><i class="fa fa-dashboard"></i> Dashboard</h1>
+			<ul class="breadcrumb">
+				<li><a href="index.html"><i class="fa fa-dashboard"></i> Home</a> </li>
+			</ul>
+
+        </div>
+		
+
+
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="panel panel-default">
+					
+					<div class="panel-body">
+				<div class="col-lg-6 col-md-12">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-comments fa-5x"></i>
+								</div>
+								<div class="col-xs-9 text-right">
+									<div class="huge">26</div>
+									<div>New Comments!</div>
+								</div>
+							</div>
+						</div>
+						<a href="#">
+							<div class="panel-footer">
+								<span class="pull-left">View Details</span>
+								<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+								<div class="clearfix"></div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="panel panel-success">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-tasks fa-5x"></i>
+								</div>
+								<div class="col-xs-9 text-right">
+									<div class="huge">12</div>
+									<div>New Tasks!</div>
+								</div>
+							</div>
+						</div>
+						<a href="#">
+							<div class="panel-footer">
+								<span class="pull-left">View Details</span>
+								<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+								<div class="clearfix"></div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="panel panel-warning">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-shopping-cart fa-5x"></i>
+								</div>
+								<div class="col-xs-9 text-right">
+									<div class="huge">124</div>
+									<div>New Orders!</div>
+								</div>
+							</div>
+						</div>
+						<a href="#">
+							<div class="panel-footer">
+								<span class="pull-left">View Details</span>
+								<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+								<div class="clearfix"></div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="panel panel-danger">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-support fa-5x"></i>
+								</div>
+								<div class="col-xs-9 text-right">
+									<div class="huge">13</div>
+									<div>Support Tickets!</div>
+								</div>
+							</div>
+						</div>
+						<a href="#">
+							<div class="panel-footer">
+								<span class="pull-left">View Details</span>
+								<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+								<div class="clearfix"></div>
+							</div>
+						</a>
+					</div>
+				</div>
+				
+				<hr>
+				
+				<div class="col-md-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							Real-time updates
+						</div>
+					   
+						<div class="panel-body">
+							<div id="Real-time" style="height: 200px;"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							Series Types
+						</div>
+					   
+						<div class="panel-body">
+							<div id="series" style="height: 200px;"></div>
+						</div>
+					</div>
+				</div>
+				
+				<hr>
+				
+				<div class="col-md-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							Map
+						</div>
+					   
+						<div class="panel-body">						
+							<div id="vmap" style="height: 300px;"></div>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</div>
+		</div>
+			
+			
+			<div class="col-lg-4">
+				<!-- start:user info -->
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<header class="panel-title">
+							<div class="text-center">
+								Profil
+							</div>
+						</header>
+					</div>
+					<div class="panel-body">
+						<div class="text-center" id="author">
+							<img src="img/profil.png" class="img-circle" width="80">
+							<h4>Lorem ipsum</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et sagittis nibh. Cras sed arcu turpis. Nunc bibendum nisl aliquet, viverra ex vel, laoreet erat.</p>
+							<p class="sosmed-author">
+								<a href="#"><i class="fa fa-facebook" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter"></i></a>
+								<a href="#"><i class="fa fa-google-plus" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google Plus"></i></a>
+								<a href="#"><i class="fa fa-linkedin" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin"></i></a>
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<hr>
+				
+				
+				<div class="panel  panel-default">
+					<div class="panel-heading">
+						<span class="glyphicon glyphicon-comment"></span> Chat
+						<div class="btn-group pull-right">
+							<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+								<span class="glyphicon glyphicon-chevron-down"></span>
+							</button>
+							<ul class="dropdown-menu slidedown">
+								<li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-refresh">
+								</span>Refresh</a></li>
+								<li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-ok-sign">
+								</span>Available</a></li>
+								<li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-remove">
+								</span>Busy</a></li>
+								<li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-time"></span>
+									Away</a></li>
+								<li class="divider"></li>
+								<li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-off"></span>
+									Sign Out</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="panel-body">
+						<ul class="chat">
+							<li class="left clearfix"><span class="chat-img pull-left">
+								<img src="http://placehold.it/50/55C1E7/fff&text=U" alt="User Avatar" class="img-circle" />
+							</span>
+								<div class="chat-body clearfix">
+									<div class="header">
+										<strong class="primary-font">Jack Sparrow</strong> <small class="pull-right text-muted">
+											<span class="glyphicon glyphicon-time"></span>12 mins ago</small>
+									</div>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare
+										dolor, quis ullamcorper ligula sodales.
+									</p>
+								</div>
+							</li>
+							<li class="right clearfix"><span class="chat-img pull-right">
+								<img src="http://placehold.it/50/FA6F57/fff&text=ME" alt="User Avatar" class="img-circle" />
+							</span>
+								<div class="chat-body clearfix">
+									<div class="header">
+										<small class=" text-muted"><span class="glyphicon glyphicon-time"></span>13 mins ago</small>
+										<strong class="pull-right primary-font">Bhaumik Patel</strong>
+									</div>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare
+										dolor, quis ullamcorper ligula sodales.
+									</p>
+								</div>
+							</li>
+							<li class="left clearfix"><span class="chat-img pull-left">
+								<img src="http://placehold.it/50/55C1E7/fff&text=U" alt="User Avatar" class="img-circle" />
+							</span>
+								<div class="chat-body clearfix">
+									<div class="header">
+										<strong class="primary-font">Jack Sparrow</strong> <small class="pull-right text-muted">
+											<span class="glyphicon glyphicon-time"></span>14 mins ago</small>
+									</div>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare
+										dolor, quis ullamcorper ligula sodales.
+									</p>
+								</div>
+							</li>
+							<li class="right clearfix"><span class="chat-img pull-right">
+								<img src="http://placehold.it/50/FA6F57/fff&text=ME" alt="User Avatar" class="img-circle" />
+							</span>
+								<div class="chat-body clearfix">
+									<div class="header">
+										<small class=" text-muted"><span class="glyphicon glyphicon-time"></span>15 mins ago</small>
+										<strong class="pull-right primary-font">Bhaumik Patel</strong>
+									</div>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare
+										dolor, quis ullamcorper ligula sodales.
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="panel-footer">
+						<div class="input-group">
+							<input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+							<span class="input-group-btn">
+								<button class="btn btn-warning btn-sm" id="btn-chat">
+									Send</button>
+							</span>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2016</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+	<!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<!-- flot-->
+	<script language="javascript" type="text/javascript" src="js/flot/jquery.flot.min.js"></script>
+	
+	<!-- MAP-->
+	<script type="text/javascript" src="js/vmap/jquery.vmap.min.js"></script>
+    <script type="text/javascript" src="js/vmap/jquery.vmap.world.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/vmap/jquery.vmap.sampledata.js"></script>
+	
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(document).on('click', '.yamm .dropdown-menu', function(e) {
+          e.stopPropagation()
+        })
+		
+		var data = [],
+		totalPoints = 300;
+
+		function getRandomData() {
+
+			if (data.length > 0)
+				data = data.slice(1);
+
+			// Do a random walk
+
+			while (data.length < totalPoints) {
+
+				var prev = data.length > 0 ? data[data.length - 1] : 50,
+					y = prev + Math.random() * 10 - 5;
+
+				if (y < 0) {
+					y = 0;
+				} else if (y > 100) {
+					y = 100;
+				}
+
+				data.push(y);
+			}
+
+			// Zip the generated y values with the x values
+
+			var res = [];
+			for (var i = 0; i < data.length; ++i) {
+				res.push([i, data[i]])
+			}
+
+			return res;
+		}
+
+		// Set up the control widget
+
+		var updateInterval = 30;
+		$("#updateInterval").val(updateInterval).change(function () {
+			var v = $(this).val();
+			if (v && !isNaN(+v)) {
+				updateInterval = +v;
+				if (updateInterval < 1) {
+					updateInterval = 1;
+				} else if (updateInterval > 2000) {
+					updateInterval = 2000;
+				}
+				$(this).val("" + updateInterval);
+			}
+		});
+
+		var plot = $.plot("#Real-time", [ getRandomData() ], {
+			series: {
+				shadowSize: 0	// Drawing is faster without shadows
+			},
+			yaxis: {
+				min: 0,
+				max: 100
+			},
+			xaxis: {
+				show: false
+			}
+		});
+
+		function update() {
+
+			plot.setData([getRandomData()]);
+
+			// Since the axes don't change, we don't need to call plot.setupGrid()
+
+			plot.draw();
+			setTimeout(update, updateInterval);
+		}
+
+		update();
+		
+		/************ Series Types **************/
+			
+		var d1 = [];
+		for (var i = 0; i < 14; i += 0.5) {
+			d1.push([i, Math.sin(i)]);
+		}
+
+		var d2 = [[0, 3], [4, 8], [8, 5], [9, 13]];
+
+		var d3 = [];
+		for (var i = 0; i < 14; i += 0.5) {
+			d3.push([i, Math.cos(i)]);
+		}
+
+		var d4 = [];
+		for (var i = 0; i < 14; i += 0.1) {
+			d4.push([i, Math.sqrt(i * 10)]);
+		}
+
+		var d5 = [];
+		for (var i = 0; i < 14; i += 0.5) {
+			d5.push([i, Math.sqrt(i)]);
+		}
+
+		var d6 = [];
+		for (var i = 0; i < 14; i += 0.5 + Math.random()) {
+			d6.push([i, Math.sqrt(2*i + Math.sin(i) + 5)]);
+		}
+
+		$.plot("#series", [{
+			data: d1,
+			lines: { show: true, fill: true }
+		}, {
+			data: d2,
+			bars: { show: true }
+		}, {
+			data: d3,
+			points: { show: true }
+		}, {
+			data: d4,
+			lines: { show: true }
+		}, {
+			data: d5,
+			lines: { show: true },
+			points: { show: true }
+		}, {
+			data: d6,
+			lines: { show: true, steps: true }
+		}]);
+		
+		/********************** MAP *******************/
+		
+		$('#vmap').vectorMap({
+          map: 'world_en',
+          backgroundColor: '#333333',
+          color: '#ffffff',
+          hoverOpacity: 0.7,
+          selectedColor: '#666666',
+          enableZoom: true,
+          showTooltip: true,
+          scaleColors: ['#C8EEFF', '#006491'],
+          values: sample_data,
+          normalizeFunction: 'polynomial'
+        });
+
+		
+	});
+	</script>
+</body>
+
+</html>

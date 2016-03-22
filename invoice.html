@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Light Admin - Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Menu Yamm -->
+    <link href="css/yamm/yamm.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+	
+	<!-- Font-awesome 4.5 -->
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-fixed-top yamm" role="navigation">
+		<div class="container">
+		  <div class="navbar-header">
+			<button type="button" data-toggle="collapse" data-target="#navbar-collapse-2" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand"><a class="navbar-brand" href="#"><img src="img/logo.png"></a></a>
+		  </div>
+			<div id="navbar-collapse-2" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav" id="mainMenu">
+					<!-- Media Example -->
+					<li class="dropdown"><a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a></li>
+					
+					<li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-fw fa-cubes"></i>  Components<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li>
+							<div class="card">
+									<ul class="nav nav-tabs" role="tablist">
+										<li class="active">
+											<a href="#charts" role="tab" data-toggle="tab"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
+										</li>
+										<li>
+											<a href="#tables" role="tab" data-toggle="tab"><i class="fa fa-fw fa-table"></i> Tables</a>
+										</li>
+										<li>
+											<a href="#forms" role="tab" data-toggle="tab"><i class="fa fa-fw fa-bars"></i> Forms</a>
+										</li>
+										<li>
+											<a href="#ui" role="tab" data-toggle="tab"><i class="fa fa-fw fa-desktop"></i> UI Elements</a>
+										</li>
+										<li>
+											<a href="#calendar" role="tab" data-toggle="tab"><i class="fa fa-fw fa-calendar"></i> Calendar</a>
+										</li>
+									</ul>
+
+									<!-- Tab panes -->
+									<div class="tab-content">
+										<div role="tabpanel" class="tab-pane active" id="charts">
+										<ul class="nav-list list-inline">
+											<li>
+												<a href="chart-morris.html" class="button"><i class="fa fa-fw fa-line-chart"></i><span>Morris</span></a>
+											</li>
+											<li>
+												<a href="chart-flot.html"><i class="fa fa-fw fa-pie-chart"></i><span>Flot</span></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa fa-area-chart"></i><span>Morris</span></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa fa-fw fa-bar-chart"></i><span>Flot</span></a>
+											</li>
+										</ul>
+										</div>
+										<div role="tabpanel" class="tab-pane" id="tables">
+											<ul class="nav-list list-inline">
+											<li>
+												<a href="tables.html"><i class="fa fa-fw fa-table"></i><span>Table</span></a>
+											</li>
+											<li>
+												<a href="dataTables.html"><i class="fa fa-fw fa-list"></i><span>DataTables</span></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa fa-paw"></i><span>Link 1</span></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa fa-music"></i><span>Link 2</span></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa fa-microphone"></i><span>Link 2</span></a>
+											</li>
+											</ul>
+										</div>
+										<div role="tabpanel" class="tab-pane" id="forms">
+											<ul class="nav-list list-inline">
+											<li>
+												<a href="form.html"><i class="fa fa-fw fa-list-alt"></i><span>Form</span></a>
+											</li>
+											<li>
+												<a href="formMD.html"><i class="fa fa-fw fa-th-list"></i><span>Form material design</span></a>
+											</li>
+											
+											</ul>
+										</div>
+										<div role="tabpanel" class="tab-pane" id="ui">
+											<ul class="nav-list list-inline">
+											<li>
+												<a href="tabs.html"><i class="fa fa-bars"></i><span>Tabs</span></a>
+											</li>
+											<li>
+												<a href="UIelements.html"><i class="fa fa-tasks"></i><span>Elements</span></a>
+											</li>
+											</ul>
+										</div>
+										<div role="tabpanel" class="tab-pane" id="calendar">
+											<ul class="nav-list list-inline">
+											<li>
+												<a href="calendar.html"><i class="fa fa-calendar"></i><span>FullCalendar</span></a>
+											</li>
+											</ul>
+										</div>
+									</div>
+							</div>	
+						</li>
+					</ul>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav">
+					<li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-files-o"></i> Pages<b class="caret"></b></a>
+
+						<ul class="dropdown-menu">
+							<li>
+								<a href="login.html"><i class="fa fa-key"></i> Login</a>
+							</li>
+							<li>
+								<a href="invoice.html"> <i class="fa fa-file"></i> Invoice</a>
+							</li>
+							<li>
+								<a href="blank.html"> <i class="fa fa-file-o"></i> Blank</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				
+				  <li class="dropdown"><a href="calendar.html"><i class="fa fa-fw fa-calendar"></i> calendar</a></li>
+				  <li class="dropdown"><a href="megamenu.html"><i class="fa fa-fw fa-list"></i> MegaMenu</a></li>
+				  <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-user"></i> User<b class="caret"></b></a>
+
+					<ul class="dropdown-menu">
+						<li>
+							<a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+						</li>
+					</ul>
+				  </li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+		<!-- /.container -->
+	<!-- Page Content -->
+	<div class="container">
+		<div class="header">
+            <div class="pull-right">
+				<!-- Standard button -->
+				<button type="button" class="btn btn-xs btn-default">Default</button>
+
+				<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+				<button type="button" class="btn btn-xs btn-primary">Primary</button>
+
+				<!-- Indicates a successful or positive action -->
+				<button type="button" class="btn btn-xs btn-success">Success</button>
+
+				<!-- Contextual button for informational alert messages -->
+				<button type="button" class="btn btn-xs btn-info">Info</button>
+
+				<!-- Indicates caution should be taken with this action -->
+				<button type="button" class="btn btn-xs btn-warning">Warning</button>
+
+				<!-- Indicates a dangerous or potentially negative action -->
+				<button type="button" class="btn btn-xs btn-danger">Danger</button>
+
+			</div>
+
+            <h1 class="page-title"><i class="fa fa-fw fa-file"></i>  Invoice</h1>
+			<ul class="breadcrumb">
+				<li><a href="index.html"><i class="fa fa-dashboard"></i> Dashboard</a> </li>
+				<li class="active">Invoice</li>
+			</ul>
+
+        </div>
+        <div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						Simple HTML invoice
+					</div>
+				   
+					<div class="panel-body">
+						<div bgcolor='#e4e4e4' text='#ff6633' link='#666666' vlink='#666666' alink='#ff6633' style='margin:0;font-family:Arial,Helvetica,sans-serif;border-bottom:1'>
+							<table background='' bgcolor='#e4e4e4' width='100%' style='padding:20px 0 20px 0' cellspacing='0' border='0' align='center' cellpadding='0'>
+								<tbody>
+									<tr>
+										<td>
+											<table width='620' border='0' align='center' cellpadding='0' cellspacing='0' bgcolor='#FFFFFF' style='border-radius: 5px;'>
+												<tbody>
+													<tr>
+														<td>
+															<table width='620' border='0' cellspacing='0' cellpadding='0' style='border-bottom:solid 1px #e5e5e5'>
+																<tbody>
+																	<tr>
+																		<td align='left' valign='top' style='padding:0px 5px 0px 5px' >
+																			<table height='20px' width='100%' border='0' cellpadding='0' cellspacing='0'>
+																				<tbody>
+																					
+																					<tr>
+																						<td height='10px' valign='top' style='color:#404041;font-size:13px;padding:5px 5px 0px 20px'>
+																						</td>
+																					</tr>
+																					<tr>
+																						<td valign='top' style='color:#404041;font-size:13px;padding:5px 5px 0px 20px'>
+																							<strong>Order number:</strong> 
+																							12345
+																						</td>
+																					</tr>
+																					
+																					<tr>
+																						<td valign='top' style='color:#404041;font-size:13px;padding:5px 5px 0px 20px'>
+																							<strong>Date:</strong>
+																							25 August 2014
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																		<td align='left' valign='top' style='padding:0px 5px 0px 5px'>
+																			<table height='146' width='100%' border='0' cellpadding='3' cellspacing='3' style='border-right:solid 1px #e5e5e5'>
+																				<tbody>
+																					<tr>
+																						<td height='16' valign='top' style='color:#404041;font-size:13px;padding:15px 5px 0px 5px'>
+																							<strong>Company Address:</strong>
+																							
+																						</td>
+																					</tr>
+																					<tr>
+																						<td valign='top' style='color:#404041;font-size:12px;padding:0px 5px 0px 5px'>
+																							<p>
+																								21 Random street<br>
+																								Random Area<br>
+																								Random Town<br>
+																								1234<br>
+																							</p>
+																																																		
+																						</td>
+																					</tr>
+																					<tr>
+																						<td height='16' valign='top' style='color:#404041;font-size:13px;padding:0px 5px 0px 5px'>
+																							<strong>Tel:</strong>
+																							
+																						</td>
+																					</tr>
+																					<tr>
+																						<td valign='top' style='color:#404041;font-size:12px;padding:0px 5px 0px 5px'>
+																							<p>
+																								<a href='tel:061%937%0266%' value='+27619370266' target='_blank'>123 456 7891</a><br>
+																							</p>
+																																																		
+																						</td>
+																					</tr>
+																					<tr>
+																						<td height='16' valign='top' style='color:#404041;font-size:13px;padding:0px 5px 0px 5px'>
+																							<strong>Email:</strong>
+																							
+																						</td>
+																					</tr>
+																					<tr>
+																						<td valign='top' style='color:#404041;font-size:12px;padding:0px 5px 0px 5px'>
+																							<p>
+																								<a href='mailto:info@preview.co.za'>info@preview.com</a><br>
+																							</p>
+																																																		
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																		<td align='left' valign='top' style='padding:0px 5px 0px 5px'>
+																			<table height='146' width='100%' border='0' cellpadding='3' cellspacing='3' >
+																				<tbody>
+																					<tr>
+																						<td height='16' valign='top' style='color:#404041;font-size:13px;padding:15px 5px 0px 5px'>
+																							<strong>Order by:</strong>
+																							
+																						</td>
+																					</tr>
+																					<tr>
+																						<td valign='top' style='color:#404041;font-size:12px;padding:0px 5px 0px 5px'>
+																							<p>
+																								Customer Name<br>
+																								<br>
+																							</p>
+																																																		
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																		<td align='left' valign='top' style='padding:0px 5px 0px 0px'>
+																			<table height='140' width='100%' border='0' cellpadding='3' cellspacing='3'>
+																				<tbody>
+																					<tr>
+																						<td height='16' valign='top' style='color:#404041;font-size:13px;padding:15px 5px 0px 5px'>
+																							<strong>Deliver to:</strong>
+																						</td>
+																					</tr>
+																					<tr>
+																						<td valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:0px 5px 0px 5px'>
+																							<p>
+																								Customer Street<br>
+																								Customer Area<br>
+																								Customer Town<br>
+																								1234<br>
+																							</p>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+													<tr>
+														<td valign='top' style='color:#404041;line-height:16px;padding:25px 20px 0px 20px'>
+															<p>
+																<section style='position: relative;clear: both;margin: 5px 0;height: 1px;border-top: 1px solid #cbcbcb;margin-bottom: 25px;margin-top: 10px;text-align: center;'>
+																	<h3 align='center' style='margin-top: -12px;background-color: #FFF;clear: both;width: 180px;margin-right: auto;margin-left: auto;padding-left: 15px;padding-right: 15px; font-family: arial,sans-serif;'>
+																		<span>TAX INVOICE</span>
+																	</h3>
+																</section>
+															</p>			
+														</td>
+													</tr>
+													<tr>
+														<td valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:25px 20px 0px 20px'>
+															<p>
+																<span><h2 style='color: #848484; font-family: arial,sans-serif; font-weight: 200;'>Hello from Company,</h2></span>
+															</p>
+															<p>
+																Thanks for shopping at <a href='company.com<' target='_blank'>company.com</a>.<br>
+																<br>We have received your order and we will notify you as soon as we have received your payment.
+															</p>
+														</td>
+													</tr>
+												
+													<tr>
+														<td style='color:#404041;font-size:12px;line-height:16px;padding:10px 16px 20px 18px'>
+															<table width='100%' border='0' cellpadding='0' cellspacing='0' style='border-radius:5px;border:solid 1px #e5e5e5'>
+																<tbody>
+																	<tr>
+																		<td>
+																			<table width='570' border='0' cellspacing='0' cellpadding='0'>
+																				<tbody>
+																					<tr>
+																						<td width='15'> 
+																						</td>
+																						<td colspan='5' align='left' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 10px 3px 5px;border-bottom:solid 1px #e5e5e5'>			
+																							<strong>Product</strong>
+																						</td>
+																						<td width='85' align='right' style='color:#404041;font-size:12px;line-height:16px;padding:5px 10px 3px 5px;border-bottom:solid 1px #e5e5e5'>
+																							<strong>Quantity</strong>
+																						</td>
+																						<td width='60' align='right' style='color:#404041;font-size:12px;line-height:16px;padding:5px 10px 3px 5px;border-bottom:solid 1px #e5e5e5'>
+																							<strong>Total</strong>
+																						</td>
+																					</tr>
+																					<tr>
+																						<td width='15'> 
+																						</td>
+																						<td colspan='5' align='left' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 5px 3px 5px;border-bottom:dashed 1px #e5e5e5'>
+																							Samsung SL-C410W Colour Laser Printer 
+																						</td>
+																						<td width='85' align='right' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 5px 3px 5px;border-bottom:dashed 1px #e5e5e5'>
+																							1
+																						</td>
+																						<td width='60' align='right' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 5px 3px 5px;border-bottom:dashed 1px #e5e5e5'>
+																							$1,234.00
+																						</td>
+																					</tr>
+																					
+																					
+																					<tr>
+																						<td width='15'> 
+																						</td>
+																						<td width='100' align='left' valign='top' style='color:#404041;font-size:12px;padding:10px 0px 0px 5px'>
+																							<strong>Seller:</strong>
+																						</td>
+																						<td colspan='4' align='left' valign='top' width='115' style='color:#ff6600;font-size:12px;padding:10px 5px 0px 5px'>
+																							<a href='http://company.com' target='_blank'>company.com</a>
+																						</td>
+																					</tr>
+																					<tr>
+																						<td width='15'> 
+																						</td>
+																						<td width='100' align='left' valign='top' style='color:#404041;font-size:12px;padding:5px 5px 0px 5px'>
+																							<strong>Delivery method:</strong>
+																						</td>
+																						<td colspan='4' align='left' valign='top' style='color:#404041;font-size:12px;padding:5px 5px 0px 5px'>
+																							Courier
+																						</td> 
+																					</tr>
+																					<tr>
+																						<td width='15'> 
+																						</td>
+																						<td width='100' valign='top' style='color:#404041;font-size:12px;padding:5px 5px 5px 5px'>
+																							<strong>Delivery time:</strong>
+																						</td>
+																						<td colspan='4' align='left' valign='top' style='color:#404041;font-size:12px;padding:5px 5px 5px 5px'>
+																							1 - 2 Working Days
+																						</td>
+																						<td width='85' align='right'> 
+																						</td>
+																						<td width='60' align='right'> 
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+																				  
+													<tr align='left' >
+														<td style='color:#404041;font-size:12px;line-height:16px;padding:10px 16px 20px 18px'>
+															<table width='0' border='0' align='left' cellpadding='0' cellspacing='0'>
+															
+																<span><h2 style='color: #848484; font-family: arial,sans-serif; font-weight: 200;'>Banking Details</h2></span>
+															
+																<tbody>
+																	<tr>
+																		<td width='0' align='left' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:0px 0px 3px 0px'>
+																			<strong>Bank:</strong> 
+																		</td>
+																		<td width='0' align='right' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:0px 5px 3px 5px'>
+																			Bank 1
+																		</td>
+																	</tr>
+																	
+																	<tr>
+																		<td align='left' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 0px 3px 0px;'>
+																			<strong>Account Number:</strong>
+																		</td>
+																		<td width='62' align='right' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 5px 3px 5px;'>
+																			123456789
+																		</td>
+																	</tr>
+																	<tr>
+																		<td align='left' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 0px 3px 0px;'>
+																			<strong>Branch:</strong>
+																		</td>
+																		<td width='120' align='right' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 5px 3px 5px;'>
+																			Bank Area
+																		</td>
+																	</tr>							
+																	
+																</tbody>
+																
+																<tbody>
+																	<tr>
+																		<td width='0' align='left' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:15px 0px 3px 0px'>
+																			<strong>Bank:</strong> 
+																		</td>
+																		<td width='0' align='right' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:15px 5px 3px 5px'>
+																			Bank 2
+																		</td>
+																	</tr>
+																	
+																	<tr>
+																		<td align='left' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 0px 3px 0px;'>
+																			<strong>Account Number:</strong>
+																		</td>
+																		<td width='62' align='right' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 5px 3px 5px;'>
+																			123456789
+																		</td>
+																	</tr>
+																	<tr>
+																		<td align='left' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 0px 3px 0px;'>
+																			<strong>Branch:</strong>
+																		</td>
+																		<td width='120' align='right' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 5px 3px 5px;'>
+																			Bank Branch
+																		</td>
+																	</tr>
+																												
+																</tbody>
+																
+																<tbody>
+																	<tr>
+																		<td width='0' align='left' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:15px 0px 3px 0px'>
+																			<strong>Bank:</strong> 
+																		</td>
+																		<td width='0' align='right' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:15px 5px 3px 5px'>
+																			Bank 3
+																		</td>
+																	</tr>
+																	
+																	<tr>
+																		<td align='left' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 0px 3px 0px;'>
+																			<strong>Account Number:</strong>
+																		</td>
+																		<td width='62' align='right' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 5px 3px 5px;'>
+																			123456789
+																		</td>
+																	</tr>
+																	<tr>
+																		<td align='left' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 0px 3px 0px;'>
+																			<strong>Branch:</strong>
+																		</td>
+																		<td width='120' align='right' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 5px 3px 5px;'>
+																			Bank Branch
+																		</td>
+																	</tr>
+																												
+																</tbody>
+															</table>
+																						
+															<table width='0' border='0' align='right' cellpadding='0' cellspacing='0'>
+																<tbody>
+																	<tr>
+																		<td width='0' align='left' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:15px 0px 3px 0px'>
+																			<strong>VAT</strong> 
+																		</td>
+																		<td width='0' align='right' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:15px 5px 3px 5px'>
+																			$123.00
+																		</td>
+																	</tr>
+																	<tr>
+																		<td width='0' align='left' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:15px 0px 3px 0px'>
+																			<strong>Sub-total:</strong> 
+																			<span style='font-size:11px;color:#666666'>(VAT included)</span>
+																		</td>
+																		<td width='0' align='right' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:15px 5px 3px 5px'>
+																			$1,234.00
+																		</td>
+																	</tr>
+																	<tr>
+																		<td align='left' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 0px 3px 0px'>
+																			<strong>Delivery costs:</strong>
+																		</td>
+																		<td width='62' align='right' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 5px 3px 5px'>																		
+																			$0.00
+																		</td>
+																	</tr>
+																	
+																	<tr>
+																		<td align='left' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 0px 3px 0px;border-bottom:solid 1px #999999'>
+																			<strong>Order discount:</strong>
+																		</td>
+																		<td width='62' align='right' valign='top' style='color:#404041;font-size:12px;line-height:16px;padding:5px 5px 3px 5px;border-bottom:solid 1px #999999'>
+																			$0.00
+																		</td>
+																	</tr>
+																	<tr>
+																		<td align='left' valign='bottom' style='color:#404041;font-size:13px;line-height:16px;padding:5px 0px 3px 0px'>
+																			<strong>Grand Total:</strong>
+																		</td>
+																		<td width='62' align='right' valign='bottom' style='color:#339933;font-size:13px;line-height:16px;padding:5px 5px 3px 5px'>
+																			<strong>$1,234.00</strong>
+																		</td>
+																	</tr>
+																</tbody>
+																
+																
+															</table>
+														</td>
+													</tr>
+															
+													<tr>
+														<td>
+															<table width='550' border='0' cellspacing='0' cellpadding='0'>
+																<tbody>
+																	<tr>
+																		<td style='color:#404041;font-size:12px;line-height:16px;padding:15px 5px 5px 10px'>
+																			For more information on your order please call us on<strong> <a href='tel:123 467 8961' value='+123 467 8961' target='_blank'>123 467 8961</a></strong>, or mail us at
+																			<a href='mailto:orders@company.com'>orders@company.com</a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+															
+													<tr>
+														<td>
+															<table width='510' border='0' cellspacing='0' cellpadding='0'>
+																<tbody>
+																	<tr>
+																		<td style='color:#404041;font-size:12px;line-height:16px;padding:5px 15px 10px 10px'>										
+																			<p>
+																				Kind regards,<br>
+																				<strong>The <a href='#' target='_blank'>company.com</a> team</strong>
+																			</p>
+																		</td>
+																	</tr>
+																	
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+	
+					</div>
+	
+							
+					</div>
+                </div>
+            </div>
+		</div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2016</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+	<!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(document).on('click', '.yamm .dropdown-menu', function(e) {
+          e.stopPropagation()
+        })
+	});
+	</script>
+</body>
+
+</html>

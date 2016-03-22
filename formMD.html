@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Light Admin - Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Menu Yamm -->
+    <link href="css/yamm/yamm.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/formMD.css" rel="stylesheet">
+	
+	<!-- Font-awesome 4.5 -->
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+		<nav class="navbar navbar-inverse navbar-fixed-top yamm" role="navigation">
+		<div class="container">
+		  <div class="navbar-header">
+			<button type="button" data-toggle="collapse" data-target="#navbar-collapse-2" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand"><a class="navbar-brand" href="#"><img src="img/logo.png"></a></a>
+		  </div>
+			<div id="navbar-collapse-2" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav" id="mainMenu">
+					<!-- Media Example -->
+					<li class="dropdown"><a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a></li>
+					
+					<li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-fw fa-cubes"></i>  Components<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li>
+							<div class="card">
+									<ul class="nav nav-tabs" role="tablist">
+										<li>
+											<a href="#charts" role="tab" data-toggle="tab"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
+										</li>
+										<li>
+											<a href="#tables" role="tab" data-toggle="tab"><i class="fa fa-fw fa-table"></i> Tables</a>
+										</li>
+										<li class="active">
+											<a href="#forms" role="tab" data-toggle="tab"><i class="fa fa-fw fa-bars"></i> Forms</a>
+										</li>
+										<li>
+											<a href="#ui" role="tab" data-toggle="tab"><i class="fa fa-fw fa-desktop"></i> UI Elements</a>
+										</li>
+										<li>
+											<a href="#calendar" role="tab" data-toggle="tab"><i class="fa fa-fw fa-calendar"></i> Calendar</a>
+										</li>
+									</ul>
+
+									<!-- Tab panes -->
+									<div class="tab-content">
+										<div role="tabpanel" class="tab-pane" id="charts">
+										<ul class="nav-list list-inline">
+											<li>
+												<a href="chart-morris.html" class="button"><i class="fa fa-fw fa-line-chart"></i><span>Morris</span></a>
+											</li>
+											<li>
+												<a href="chart-flot.html"><i class="fa fa-fw fa-pie-chart"></i><span>Flot</span></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa fa-area-chart"></i><span>Morris</span></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa fa-fw fa-bar-chart"></i><span>Flot</span></a>
+											</li>
+										</ul>
+										</div>
+										<div role="tabpanel" class="tab-pane" id="tables">
+											<ul class="nav-list list-inline">
+											<li>
+												<a href="tables.html"><i class="fa fa-fw fa-table"></i><span>Table</span></a>
+											</li>
+											<li>
+												<a href="dataTables.html"><i class="fa fa-fw fa-list"></i><span>DataTables</span></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa fa-paw"></i><span>Link 1</span></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa fa-music"></i><span>Link 2</span></a>
+											</li>
+											<li>
+												<a href="#"><i class="fa fa-microphone"></i><span>Link 2</span></a>
+											</li>
+											</ul>
+										</div>
+										<div role="tabpanel" class="tab-pane active" id="forms">
+											<ul class="nav-list list-inline">
+											<li>
+												<a href="form.html"><i class="fa fa-fw fa-list-alt"></i><span>Form</span></a>
+											</li>
+											<li>
+												<a href="formMD.html"><i class="fa fa-fw fa-th-list"></i><span>Form material design</span></a>
+											</li>
+											
+											</ul>
+										</div>
+										<div role="tabpanel" class="tab-pane" id="ui">
+											<ul class="nav-list list-inline">
+											<li>
+												<a href="tabs.html"><i class="fa fa-bars"></i><span>Tabs</span></a>
+											</li>
+											<li>
+												<a href="UIelements.html"><i class="fa fa-tasks"></i><span>Elements</span></a>
+											</li>
+											</ul>
+										</div>
+										<div role="tabpanel" class="tab-pane" id="calendar">
+											<ul class="nav-list list-inline">
+											<li>
+												<a href="calendar.html"><i class="fa fa-calendar"></i><span>FullCalendar</span></a>
+											</li>
+											</ul>
+										</div>
+									</div>
+							</div>	
+						</li>
+					</ul>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav">
+					<li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-files-o"></i> Pages<b class="caret"></b></a>
+
+						<ul class="dropdown-menu">
+							<li>
+								<a href="login.html"><i class="fa fa-key"></i> Login</a>
+							</li>
+							<li>
+								<a href="invoice.html"> <i class="fa fa-file"></i> Invoice</a>
+							</li>
+							<li>
+								<a href="blank.html"> <i class="fa fa-file-o"></i> Blank</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				
+				  <li class="dropdown"><a href="calendar.html"><i class="fa fa-fw fa-calendar"></i> calendar</a></li>
+				  <li class="dropdown"><a href="megamenu.html"><i class="fa fa-fw fa-list"></i> MegaMenu</a></li>
+				  <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-user"></i> User<b class="caret"></b></a>
+
+					<ul class="dropdown-menu">
+						<li>
+							<a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+						</li>
+					</ul>
+				  </li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+		<!-- /.container -->
+	<!-- Page Content -->
+	<div class="container">
+		<div class="header">
+            <div class="pull-right">
+				<!-- Standard button -->
+				<button type="button" class="btn btn-xs btn-default">Default</button>
+
+				<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+				<button type="button" class="btn btn-xs btn-primary">Primary</button>
+
+				<!-- Indicates a successful or positive action -->
+				<button type="button" class="btn btn-xs btn-success">Success</button>
+
+				<!-- Contextual button for informational alert messages -->
+				<button type="button" class="btn btn-xs btn-info">Info</button>
+
+				<!-- Indicates caution should be taken with this action -->
+				<button type="button" class="btn btn-xs btn-warning">Warning</button>
+
+				<!-- Indicates a dangerous or potentially negative action -->
+				<button type="button" class="btn btn-xs btn-danger">Danger</button>
+
+			</div>
+
+           <h1 class="page-title"> <i class="fa fa-fw fa-bars"></i> Form</h1>
+			<ul class="breadcrumb">
+				<li><a href="index.html"><i class="fa fa-dashboard"></i> Home</a> </li>
+				<li class="active">Material design Form</li>
+			</ul>
+
+        </div>
+        <!-- Heading Row -->
+		
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						Basic example
+					</div>
+					<div class="panel-body">
+						<form role="form">
+						  <div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+						  </div>
+						  <div class="form-group">
+							<label for="exampleInputPassword1">Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						  </div>
+						  <div class="form-group">
+							<label for="exampleInputFile">File input</label>
+							<input type="file" id="exampleInputFile">
+							<p class="help-block">Example block-level help text here.</p>
+						  </div>
+						  <br>
+						  <div class="form-group">
+							  <div class="checkbox">
+								<label>
+								  <input type="checkbox"> Remember me
+								</label>
+							  </div>
+						  </div>
+						  
+						  <div class="form-group">
+							<div class="pull-right">
+							  <button type="submit" class="btn btn-default">Submit</button>
+							</div>
+						  </div>
+						  
+						</form>
+					</div>
+				</div>
+				
+				<div class="panel panel-default">
+					
+					<div class="panel-heading">
+						Horizontal form
+					</div>
+					<div class="panel-body">
+						<form class="form-horizontal" role="form">
+						  <div class="form-group">
+							<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+							<div class="col-sm-10">
+							  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+							</div>
+						  </div>
+						  <div class="form-group">
+							<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+							<div class="col-sm-10">
+							  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+							</div>
+						  </div>
+						  <div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+							  <div class="checkbox">
+								<label>
+								  <input type="checkbox"> Remember me
+								</label>
+							  </div>
+							</div>
+						  </div>
+						  <div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+							  <button type="submit" class="btn btn-default">Sign in</button>
+							</div>
+						  </div>
+						</form>
+					</div>
+					
+				</div>
+				
+				<div class="panel panel-default">
+				
+					
+					<div class="panel-heading">
+						Static control
+					</div>
+					<div class="panel-body">
+						<form class="form-horizontal" role="form">
+						  <div class="form-group">
+							<label class="col-sm-2 control-label">Email</label>
+							<div class="col-sm-10">
+							  <p class="form-control-static">email@example.com</p>
+							</div>
+						  </div>
+						  <div class="form-group">
+							<label for="inputPassword" class="col-sm-2 control-label">Password</label>
+							<div class="col-sm-10">
+							  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+							</div>
+						  </div>
+						</form>
+					</div>
+					
+					
+				</div>				
+				
+			</div>
+			
+			<div class="col-lg-6">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						Horizontal form
+					</div>
+					<div class="panel-body">						
+									
+						<!-- List group -->
+						<ul class="list-group">
+							<li class="list-group-item">
+								Bootstrap Switch Default
+								<div class="material-switch pull-right">
+									<input id="OptionDefault" name="Option001" type="checkbox"/>
+									<label for="OptionDefault" class="label-default"></label>
+								</div>
+							</li>
+							<li class="list-group-item">
+								Bootstrap Switch Primary
+								<div class="material-switch pull-right">
+									<input id="OptionPrimary" name="Option001" type="checkbox" checked/>
+									<label for="OptionPrimary" class="label-primary"></label>
+								</div>
+							</li>
+							<li class="list-group-item">
+								Bootstrap Switch Success
+								<div class="material-switch pull-right">
+									<input id="OptionSuccess" name="Option001" type="checkbox" checked/>
+									<label for="OptionSuccess" class="label-success"></label>
+								</div>
+							</li>
+							<li class="list-group-item">
+								Bootstrap Switch Info
+								<div class="material-switch pull-right">
+									<input id="OptionInfo" name="Option001" type="checkbox" checked/>
+									<label for="OptionInfo" class="label-info"></label>
+								</div>
+							</li>
+							<li class="list-group-item">
+								Bootstrap Switch Warning
+								<div class="material-switch pull-right">
+									<input id="OptionWarning" name="Option001" type="checkbox" checked/>
+									<label for="OptionWarning" class="label-warning"></label>
+								</div>
+							</li>
+							<li class="list-group-item">
+								Bootstrap Switch Danger
+								<div class="material-switch pull-right">
+									<input id="OptionDanger" name="Option001" type="checkbox" checked/>
+									<label for="OptionDanger" class="label-danger"></label>
+								</div>
+							</li>
+						</ul>
+					
+
+					</div>
+				</div>
+				
+				<hr>
+				
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						Horizontal form
+					</div>
+					<div class="panel-body">
+						<form class="form" role="form">
+						  <select class="form-control">
+							  <option>1</option>
+							  <option>2</option>
+							  <option>3</option>
+							  <option>4</option>
+							  <option>5</option>
+							</select>
+							<hr>
+							<select multiple class="form-control">
+							  <option>1</option>
+							  <option>2</option>
+							  <option>3</option>
+							  <option>4</option>
+							  <option>5</option>
+							</select>
+						</form>
+					</div>
+				</div>
+				
+				<hr>
+				
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						Validation states
+					</div>
+					<div class="panel-body">
+						<form class="form" role="form">
+							<div class="form-group has-success has-feedback">
+							  <label class="control-label" for="inputSuccess2">Input with success</label>
+							  <input type="text" class="form-control" id="inputSuccess2">
+							  <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+							</div>
+							<div class="form-group has-warning has-feedback">
+							  <label class="control-label" for="inputWarning2">Input with warning</label>
+							  <input type="text" class="form-control" id="inputWarning2">
+							  <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+							</div>
+							<div class="form-group has-error has-feedback">
+							  <label class="control-label" for="inputError2">Input with error</label>
+							  <input type="text" class="form-control" id="inputError2">
+							  <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+        <hr>
+		
+		
+
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2016</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+	<!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(document).on('click', '.yamm .dropdown-menu', function(e) {
+          e.stopPropagation()
+        })
+		
+		var ripples = {
+			init : function(withRipple) {
+				"use strict";
+
+				// Cross browser matches function
+				function matchesSelector(dom_element, selector) {
+					var matches = dom_element.matches || dom_element.matchesSelector || dom_element.webkitMatchesSelector || dom_element.mozMatchesSelector || dom_element.msMatchesSelector || dom_element.oMatchesSelector;
+					return matches.call(dom_element, selector);
+				}
+
+				// animations time
+				var rippleOutTime = 100,
+					rippleStartTime = 500;
+
+				// Helper to bind events on dynamically created elements
+				var bind = function(event, selector, callback) {
+					document.addEventListener(event, function(e) {
+						var target = (typeof e.detail !== "number") ? e.detail : e.target;
+
+						if (matchesSelector(target, selector)) {
+							callback(e, target);
+						}
+					});
+				};
+
+				var rippleStart = function(e, target) {
+
+					// Init variables
+					var $rippleWrapper  = target,
+						$el             = $rippleWrapper.parentNode,
+						$ripple         = document.createElement("div"),
+						elPos           = $el.getBoundingClientRect(),
+						mousePos        = {x: e.clientX - elPos.left, y: e.clientY - elPos.top},
+						scale           = "transform:scale(" + Math.round($rippleWrapper.offsetWidth / 5) + ")",
+						rippleEnd       = new CustomEvent("rippleEnd", {detail: $ripple}),
+						refreshElementStyle;
+
+					$ripplecache = $ripple;
+
+					// Set ripple class
+					$ripple.className = "ripple";
+
+					// Move ripple to the mouse position
+					$ripple.setAttribute("style", "left:" + mousePos.x + "px; top:" + mousePos.y + "px;");
+
+					// Insert new ripple into ripple wrapper
+					$rippleWrapper.appendChild($ripple);
+
+					// Make sure the ripple has the class applied (ugly hack but it works)
+					refreshElementStyle = window.getComputedStyle($ripple).opacity;
+
+					// Let other funtions know that this element is animating
+					$ripple.dataset.animating = 1;
+
+					// Set scale value to ripple and animate it
+					$ripple.className = "ripple ripple-on";
+					$ripple.setAttribute("style", $ripple.getAttribute("style") + ["-ms-" + scale,"-moz-" + scale,"-webkit-" + scale,scale].join(";"));
+
+					// This function is called when the animation is finished
+					setTimeout(function() {
+
+						// Let know to other functions that this element has finished the animation
+						$ripple.dataset.animating = 0;
+						document.dispatchEvent(rippleEnd);
+
+					}, rippleStartTime);
+
+				};
+
+				var rippleOut = function($ripple) {
+					console.log($ripple);
+					// Clear previous animation
+					$ripple.className = "ripple ripple-on ripple-out";
+
+					// Let ripple fade out (with CSS)
+					setTimeout(function() {
+						$ripple.remove();
+					}, rippleOutTime);
+				};
+
+				// Helper, need to know if mouse is up or down
+				var mouseDown = false;
+				document.body.onmousedown = function() {
+					mouseDown = true;
+				};
+				document.body.onmouseup = function() {
+					mouseDown = false;
+				};
+
+				// Append ripple wrapper if not exists already
+				var rippleInit = function(e, target) {
+
+					if (target.getElementsByClassName("ripple-wrapper").length === 0) {
+						target.className += " withripple";
+						var $rippleWrapper = document.createElement("div");
+						$rippleWrapper.className = "ripple-wrapper";
+						target.appendChild($rippleWrapper);
+					}
+
+				};
+
+
+				var $ripplecache;
+
+				// Events handler
+				// init RippleJS and start ripple effect on mousedown
+				bind("mouseover", withRipple, rippleInit);
+
+				console.log(withRipple);
+				// start ripple effect on mousedown
+				bind("mousedown", ".ripple-wrapper", rippleStart);
+				// if animation ends and user is not holding mouse then destroy the ripple
+				bind("rippleEnd", ".ripple-wrapper .ripple", function(e, $ripple) {
+					if (!mouseDown) {
+						rippleOut($ripple);
+					}
+				});
+				// Destroy ripple when mouse is not holded anymore if the ripple still exists
+				bind("mouseup", ".ripple-wrapper", function() {
+					var $ripple = $ripplecache;
+					if ($ripple.dataset.animating != 1) {
+						rippleOut($ripple);
+					}
+				});
+
+			}
+		};
+		/* globals ripples */
+
+		$(function (){
+
+			if (ripples) {
+				ripples.init(".btn:not(.btn-link), .navbar a, .nav-tabs a, .withripple");
+			}
+
+			var initInputs = function() {
+				// Add fake-checkbox to material checkboxes
+				$(".checkbox > label > input").not(".bs-material").addClass("bs-material").after("<span class=check></span>");
+
+				// Add fake-radio to material radios
+				$(".radio > label > input").not(".bs-material").addClass("bs-material").after("<span class=circle></span><span class=check></span>");
+
+				// Add elements for material inputs
+				$("input.form-control, textarea.form-control, select.form-control").not(".bs-material").each( function() {
+					if ($(this).is(".bs-material")) { return; }
+					$(this).wrap("<div class=form-control-wrapper></div>");
+					$(this).after("<span class=material-input></span>");
+					if ($(this).hasClass("floating-label")) {
+						var placeholder = $(this).attr("placeholder");
+						$(this).attr("placeholder", null).removeClass("floating-label");
+						$(this).after("<div class=floating-label>" + placeholder + "</div>");
+					}
+					if ($(this).is(":empty") || $(this).val() === null || $(this).val() == "undefined" || $(this).val() === "") {
+						$(this).addClass("empty");
+					}
+
+					if ($(this).parent().next().is("[type=file]")) {
+						$(this).parent().addClass("fileinput");
+						var $input = $(this).parent().next().detach();
+						$(this).after($input);
+					}
+				});
+
+			};
+			initInputs();
+
+
+			if (document.arrive) {
+				document.arrive("input, textarea, select", function() {
+					initInputs();
+				});
+			}
+
+			$(document).on("change", ".checkbox input", function() {
+				$(this).blur();
+			});
+
+			$(document).on("keyup change", ".form-control", function() {
+				var self = $(this);
+				setTimeout(function() {
+					if (self.val() === "") {
+						self.addClass("empty");
+					} else {
+						self.removeClass("empty");
+					}
+				}, 1);
+			});
+			$(document)
+			.on("focus", ".form-control-wrapper.fileinput", function() {
+				$(this).find("input").addClass("focus");
+			})
+			.on("blur", ".form-control-wrapper.fileinput", function() {
+				$(this).find("input").removeClass("focus");
+			})
+			.on("change", ".form-control-wrapper.fileinput [type=file]", function() {
+				var value = "";
+				$.each($(this)[0].files, function(i, file) {
+					console.log(file);
+					value += file.name + ", ";
+				});
+				value = value.substring(0, value.length - 2);
+				if (value) {
+					$(this).prev().removeClass("empty");
+				} else {
+					$(this).prev().addClass("empty");
+				}
+				$(this).prev().val(value);
+			});
+		});
+
+	});
+	</script>
+</body>
+
+</html>
