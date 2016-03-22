@@ -6,7 +6,7 @@ the template is based on bootstrap framework v3.3.
 LightAdmin integrates a large menu and other free components.
 
 ## DEMO
-[demo](https://lightadmin.jamelbaz.com/).
+[demo](http://lightadmin.jamelbaz.com/).
 
 ## License
 
