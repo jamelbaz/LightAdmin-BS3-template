@@ -5,7 +5,7 @@ Template with a simple design for web application (dashboard).
 the template is based on bootstrap framework v3.3.
 LightAdmin integrates a large menu and other free components.
 
-# DEMO
+## DEMO
 [demo](https://lightadmin.jamelbaz.com/).
 
 ## License
